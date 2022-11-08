@@ -4,12 +4,15 @@ Exercise to create a Mongodb/NodeJS app with data persistence.
 * Clone the repository to your localmachine <br/>
 * Build the frontend image with below command <br/>
   $ docker build -t mongoapp . <br/>
+* Tag the image and upload in Docker hub. (optional step) <br/>
+  $ docker tag mongoapp <your-dockerhub-username>/mongoapp:1.0
+  $ docker push <your-dockerhub-username>/mongoapp:1.0
 * Run docker compose to create Mongodb and Mongoexpress <br/>
   $ docker-compose up -d
 * Goto Mongo express : http://localhost:8080 <br/>
 * Create a database in Mongodb as "my-db" <br/>
 * Create a collection "users" <br/>
-* Create the frontend container with below command using the image created in 1st step. (Please debug minor issues if there are any & start the container) <br/>
+* Create the frontend container with below command using the image created in 1st step. (Please debug minor issues if there are any & start the container. You can also pull the image from docker hub where you uploaded the image earlier) <br/>
   $ docker run --name mongoapp --network docker_default -dp 3000:3000 mongoapp <br/>
 * Visit the local webpage at http://localhost:3000
   You can update the data and verify that data is persisting even after container restarts/deletion (You may delete the mongoapp container and create a new one to verify data persistence) <br/>
