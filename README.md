@@ -9,6 +9,7 @@ Exercise to create a Mongodb/NodeJS app with data persistence.
 * Goto Mongo express : http://localhost:8080 <br/>
 * Create a database in Mongodb as "my-db" <br/>
 * Create a collection "users" <br/>
+* Create the frontend container with below command using the image created in 1st step <br/>
   $ docker run --name mongoapp --network jsmongodb-app_default -dp 3000:3000 mongoapp <br/>
 * Visit the local webpage at http://localhost:3000
   You can update the data and verify that data is persisting even after container restarts/deletion (Delete the mongoapp container and create a new one to verify) <br/>
