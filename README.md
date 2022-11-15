@@ -1,6 +1,6 @@
 # docker <br/>
-Exercise to create a Mongodb/NodeJS app with data persistence. <br/> 
-This exercise covers docker networking, volumes, Docker registries, Image/Container management and Docker compose.<br/> 
+<ins> Create a Mongodb/NodeJS app with data persistence.</ins> <br/> <br/>
+This covers docker networking, volumes, Docker registries, Image/Container management and Docker compose.<br/> 
 
 
 * Clone the repository to your localmachine <br/>
