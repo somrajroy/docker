@@ -7,8 +7,8 @@ This covers docker networking, volumes, Docker registries, Image/Container manag
 * Build the frontend image with below command <br/>
   $ docker build -t mongoapp . <br/>
 * Tag the image and upload in Docker hub. (optional step) <br/>
-  $ docker tag mongoapp <your-dockerhub-username>/mongoapp:1.0
-  $ docker push <your-dockerhub-username>/mongoapp:1.0
+  $ docker tag mongoapp <<-your-dockerhub-username->>/mongoapp:1.0 <br/>
+  $ docker push <<-your-dockerhub-username->>/mongoapp:1.0 <br/>
 * Run docker compose to create Mongodb and Mongoexpress <br/>
   $ docker-compose up -d
 * Goto Mongo express : http://localhost:8080 <br/>
