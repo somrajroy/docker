@@ -4,7 +4,9 @@ This covers docker networking, volumes, Docker registries, Image/Container manag
 
 #### Workflow/Architecture <br/>
 ![image](https://user-images.githubusercontent.com/92582005/202113215-a9494cba-2108-4ee3-8da5-7f92ad2abba9.png) <br/>
+![image](https://user-images.githubusercontent.com/92582005/202115266-2e2d0ecf-f943-4b34-af28-cd9c5efef8f2.png) <br/>
 
+## Steps to be followed <br/>
 * Clone the repository to your localmachine <br/>
 * Build the frontend image with below command <br/>
   $ docker build -t mongoapp . <br/>
