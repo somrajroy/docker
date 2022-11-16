@@ -2,6 +2,8 @@
 <ins> Create a Mongodb/NodeJS app with data persistence.</ins> <br/> <br/>
 This covers docker networking, volumes, Docker registries, Image/Container management and Docker compose.<br/> 
 
+#### Workflow/Architecture <br/>
+![image](https://user-images.githubusercontent.com/92582005/202113215-a9494cba-2108-4ee3-8da5-7f92ad2abba9.png) <br/>
 
 * Clone the repository to your localmachine <br/>
 * Build the frontend image with below command <br/>
