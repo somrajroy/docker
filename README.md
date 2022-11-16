@@ -2,10 +2,6 @@
 <ins> Create a Mongodb/NodeJS app with data persistence.</ins> <br/> <br/>
 This covers docker networking, volumes, Docker registries, Image/Container management and Docker compose.<br/> 
 
-#### Workflow/Architecture <br/>
-![image](https://user-images.githubusercontent.com/92582005/202113215-a9494cba-2108-4ee3-8da5-7f92ad2abba9.png) <br/>
-![image](https://user-images.githubusercontent.com/92582005/202115266-2e2d0ecf-f943-4b34-af28-cd9c5efef8f2.png) <br/>
-
 ## Steps to be followed <br/>
 * Clone the repository to your localmachine <br/>
 * Build the frontend image with below command <br/>
@@ -29,4 +25,8 @@ This covers docker networking, volumes, Docker registries, Image/Container manag
   
 # Exercise
 * In this demo we are creating the frontend with a Dokerfile and the backend with a docker compose file (Mongodb + Mongoexpress). However we can put everything together in docker compose file. We can then create & destroy everything with single command (docker-compose down). <br/>
-* Please create an end to end docker compose file by the weekend and share with me.
+* Please create an end to end docker compose file by the weekend and share with me. <br/>
+#### Workflow/Architecture <br/>
+![image](https://user-images.githubusercontent.com/92582005/202113215-a9494cba-2108-4ee3-8da5-7f92ad2abba9.png) <br/>
+![image](https://user-images.githubusercontent.com/92582005/202115266-2e2d0ecf-f943-4b34-af28-cd9c5efef8f2.png) <br/>
+
