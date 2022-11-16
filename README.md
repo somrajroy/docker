@@ -23,7 +23,7 @@ This covers docker networking, volumes, Docker registries, Image/Container manag
   $ docker-compose down <br/>
   $ docker-compose down --volume <br/><br/>
   
-# Exercise
+#### Exercise
 * In this demo we are creating the frontend with a Dokerfile and the backend with a docker compose file (Mongodb + Mongoexpress). However we can put everything together in docker compose file. We can then create & destroy everything with single command (docker-compose down). <br/>
 * Please create an end to end docker compose file by the weekend and share with me. <br/>
 #### Workflow/Architecture <br/>
